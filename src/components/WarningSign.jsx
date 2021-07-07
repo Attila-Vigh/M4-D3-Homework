@@ -11,15 +11,15 @@ const WarningSign = ({ textAlert })=> {
     }
     return(
         <Alert variant="success" style={stylesAlert}>
-                <Alert.Heading as="h2">Bootstrap!!! This is Sparta!!! </Alert.Heading>
-                <p>
-                    { textAlert }
-                </p>
-                <hr />
-                <p className="mb-0">
-                    Stupind variant does not work!
-                </p>
-            </Alert>
+            <Alert.Heading as="h2">Bootstrap!!! This is Sparta!!! </Alert.Heading>
+            <p>
+                { textAlert }
+            </p>
+            <hr />
+            <p className="mb-0">
+                Stupind variant does not work!
+            </p>
+        </Alert>
     )
 }
 
