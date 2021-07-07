@@ -3,21 +3,18 @@ import { Alert } from 'react-bootstrap'
 
 const WarningSign = ({ textAlert })=> {
     const stylesAlert = {
-        backgroundColor: "#00ff37",
-        border: "1px solid red",
         margin: "15px",
         borderRadius: "10px",
         
     }
     return(
-        <Alert variant="success" style={stylesAlert}>
-            <Alert.Heading as="h2">Bootstrap!!! This is Sparta!!! </Alert.Heading>
-            <p>
-                { textAlert }
-            </p>
+        <Alert variant="success" className="m-5" >
+            <Alert.Heading as="h2">Bootstrap!!! </Alert.Heading>
+            <Alert.Heading as="h3"> This is Sparta!!! </Alert.Heading>
+            <p> { textAlert } </p>
             <hr />
             <p className="mb-0">
-                Stupind variant does not work!
+                Stupind variant did not work as we wanted!
             </p>
         </Alert>
     )
